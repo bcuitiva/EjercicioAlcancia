@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        //Brayan David Cuitiva Umbarila
         int op, nuev = 0, mIng, m20 = 0, m50 = 0, m100 = 0, m200 = 0, m500 = 0, tot = 0, ejec = 1;
         Scanner sc = new Scanner(System.in);
         while(ejec != 0) {
