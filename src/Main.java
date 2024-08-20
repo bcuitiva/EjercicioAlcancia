@@ -3,12 +3,14 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         //Brayan David Cuitiva Umbarila
+        //El codigo genera una alcancia en la que se puede agregar monedas, contar monedas, calcular el dinero total, y por ultimo romper la alcancia.
+        //20-08-2024
         int op, nuev = 0, mIng, m20 = 0, m50 = 0, m100 = 0, m200 = 0, m500 = 0, tot = 0, ejec = 1;
         Scanner sc = new Scanner(System.in);
         while(ejec != 0) {
             System.out.println("ALCANCIA");
             System.out.println("Ingrese la accion de que desea hacer: ");
-            System.out.println("1.Agregar moneda\n2.Contar monedas\n3.Calcular total dinero\n4.Mostrar dinero ahorrado");
+            System.out.println("1.Agregar moneda\n2.Contar monedas\n3.Calcular y mostrar el total dinero\n4.Romper alcancia");
             System.out.println("Si no desea realizar ninguna accion ingrese 0.");
             op = sc.nextInt();
             switch (op) {
